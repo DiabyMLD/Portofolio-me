@@ -1,0 +1,85 @@
+/* Style de base pour le header */
+.Header-container {
+    background-color: #1f2349;
+    color: #fff;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom:10px solid #b79e5d;
+  }
+  
+  .Header-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .Header-menu li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  /* Style du menu déroulant */
+  .menu-dropdown .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  .menu-dropdown:hover .submenu {
+    display: block;
+    background-color: darkslategray;
+  }
+  
+  /* Style des liens dans le menu déroulant */
+  .submenu li {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .submenu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+ a:hover{
+    color: darkred;
+    padding: 10px;
+    background-color: rgb(12, 18, 18);
+  }
+
+  a:active{
+color: darkblue;
+  }
+  
+  /* Style pour le lien principal du menu déroulant */
+  .menu-dropdown .weight {
+    cursor: pointer;
+  }
+
+  .weight{
+    font-family: 'Sriracha', cursive;
+    font-weight: bolder;
+    border-left: 2px solid aliceblue;
+    padding: 2vh;
+    margin: 2vw;
+    background-color:#b79e5d ;
+  }
+
+  .weight:hover{
+    background-color: darkgrey;
+    padding: 2vh;
+    margin: 2vw;
+  }
+  
+  

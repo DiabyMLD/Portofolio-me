@@ -1,0 +1,32 @@
+.langpage-box{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: circle;
+  }
+  
+  /* Ajoutez un conteneur pour le texte */
+  .lang-description {
+    display: flex;
+    align-items: center; /* Centrez verticalement les éléments */
+    margin-bottom: 20px; /* Espacement entre les éléments */
+  }
+  
+  /* Appliquez une flexibilité aux éléments internes */
+  .lang-description img {
+    max-width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+    margin-right: 20px; /* Espacement entre l'image et le texte */
+  }
+  
+  /* Le paragraphe (p) sera à droite de l'image */
+  .lang-description p {
+    flex: 1; /* Occupe l'espace disponible restant */
+    text-align: left; /* Alignez le texte à gauche */
+  }
+
+  .lang-description h2{
+    margin: 30px;
+    
+  }
+  

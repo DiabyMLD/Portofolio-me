@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap');
+
+
+
+
+.list-container {
+  position: relative; /* Position relative pour que les éléments position: absolute à l'intérieur soient positionnés par rapport à celui-ci */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-img {
+  object-fit: cover;
+  width: 100vw;
+  height: 40vh;
+  opacity: 70%;
+  pointer-events: none;
+  border-bottom:10px solid #EBC972;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  position: absolute;
+  font-size: 70px;
+  top: 20%; 
+  left: 35%; 
+  transform: translate(-50%, -50%); 
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  /* Effet de volume */
+  text-shadow: 10px 2px 2px #EBC972; /* Décalage horizontal, décalage vertical, flou et couleur du texte d'ombre */
+}
+
+
+.banner{
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  bottom: 25%; /* Positionner le titre au milieu de l'image */
+  right: 1%; /* Positionner le titre au milieu de l'image */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Décalage de -50% de la largeur et -50% de la hauteur pour centrer le titre */
+  margin: 70px ; /* Réinitialiser les marges pour éviter tout débordement */
+  padding: 20px; /* Ajoutez un peu d'espacement autour du titre si nécessaire */
+  width: 35%;
+}
+
+h3 {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.homepage-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
+}
+
+.homepage-buttons button {
+  margin: 10px;
+}
+
+.button-click {
+  display: inline-block;
+  font-family: 'Montserrat Alternates', sans-serif;;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid aliceblue;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.1s ease;
+  font-size: 50px;
+  color: #80e3cf;
+  opacity: 20%; /* Commencez par masquer le composant */
+  transform: translateY(10px); /* Appliquez une transformation initiale (dans cet exemple, déplacez-le vers le bas) */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Définissez la transition sur les propriétés que vous souhaitez animer */
+}
+
+.button-click:hover{
+  color: red;
+  opacity: 1; 
+  transform: translateY(0); 
+}
+
+.button-click:active{
+  color: blue;
+}
+
+/* Classe pour l'animation d'entrée */
+.project-list-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-list-enter-active {
+  opacity: 0.1;
+  transform: translateY(10px);
+}
+
+/* Classe pour l'animation de sortie */
+.project-list-exit {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-list-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.button-click2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat Alternates', sans-serif;;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid aliceblue;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.1s ease;
+  font-size: 50px;
+  color: #80e3cf;
+  opacity: 20%; /* Commencez par masquer le composant */
+  transform: translateY(10px); /* Appliquez une transformation initiale (dans cet exemple, déplacez-le vers le bas) */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Définissez la transition sur les propriétés que vous souhaitez animer */
+}
+
+.button-click2:hover{
+  color: red;
+  opacity: 1; 
+  transform: translateY(0); 
+}
+
+.button-click2:active{
+  color: blue;
+}
+
