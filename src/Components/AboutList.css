@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
+
+
+.about-tap{
+    font-family: 'Sriracha', cursive;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    grid-gap: 20px; /* Espacement entre les éléments */
+    margin-left: 25px;
+}
+
+
+.about-box{
+    font-family: 'Sriracha', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    text-align: center; /* Alignez le texte au centre */
+}
+
+.icon-box.last-icon-box {
+    justify-content: flex-end; /* Alignez la dernière boîte à droite */
+  }
+
+  .about-box button {
+    margin-bottom: 10px; /* Espacement entre l'image et le texte */
+  }
+  
+  .about-tap img {
+    width: 75%;
+    background-color:#1f2349 
+  }
+  
+  .list-description {
+    color: #80e3cf;
+    text-align: center; /* Alignez le texte au centre */
+  }
+
+  .custom-link {
+    color: #3498db; 
+    text-decoration: none; 
+  }

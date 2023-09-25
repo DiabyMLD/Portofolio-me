@@ -102,6 +102,15 @@ export const projects = [
     img: "/BacDiaby.jpg",
   },
 
+  {
+    id: 13,
+    category: "contact",
+    name: "Numéro de téléphone",
+    description: "06 38 88 89 75",
+    img: "",
+  },
+
+
 
 
 ];
