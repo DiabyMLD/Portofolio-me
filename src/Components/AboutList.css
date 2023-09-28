@@ -17,8 +17,10 @@
     flex-direction: column;
     align-items: center;
     font-size: 40px;
-    text-align: center; /* Alignez le texte au centre */
+    text-align: center;
+    background-color:#1f2349;
 }
+
 
 .icon-box.last-icon-box {
     justify-content: flex-end; /* Alignez la dernière boîte à droite */
@@ -26,16 +28,18 @@
 
   .about-box button {
     margin-bottom: 10px; /* Espacement entre l'image et le texte */
+    border:10px solid #b79e5d;
   }
   
   .about-tap img {
-    width: 75%;
-    background-color:#1f2349 
+    background-color:#1f2349
   }
   
-  .list-description {
+  .about-description {
     color: #80e3cf;
     text-align: center; /* Alignez le texte au centre */
+    align-self: flex-end; /* Aligner le texte en bas */
+    margin-top: auto; /* Pour pousser le texte vers le bas */
   }
 
   .custom-link {

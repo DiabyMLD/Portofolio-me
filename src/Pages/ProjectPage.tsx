@@ -19,10 +19,10 @@ export const ProjectPage = ({ projs }: ProjectPageProps) => {
       <ul>
         {projectData.map((proj) => (
           <li key={proj.id}>
+            <h2>{proj.name}</h2>
+            <p>{proj.description}</p> 
             <img src={proj.img} alt={proj.name} />
             <img src={proj.img2} />
-            <h2>{proj.name}</h2>
-            <p>{proj.description}</p>
           </li>
         ))}
       </ul>

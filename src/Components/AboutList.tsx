@@ -13,24 +13,19 @@ export const AboutList = ({ about }: AboutListProps) => {
     <div className="about-container">
       <section className="about-tap">
         <div className="about-box">
-          <Link to={`/about`} className="about-link">
-            <button>
-              <img src="Tel.png" alt="image not found" />
-            </button>
-            <div>Me Contacter</div>
-          </Link>
+            {/* <div  className="about-link">Me Contacter</div>
           <section className="list-description">
-            Pour me contacter
-          </section>
+            Pour me contacter : 06 38 88 89 75
+          </section> */}
 
            <div className="about-box">
           <Link to={`/exp`} className="custom-link">
             <button className="about-box">
-              <img src="/icon7.jpg" alt="image not found" />
+              <img src="/icon7New.png" alt="image not found" />
             </button>
             <div>Mes expériences professionnelles et diplomes</div>
           </Link>
-          <section className="list-description">
+          <section className="about-description">
             Voici mon parcours scolaire et universitaire
           </section>
         </div>

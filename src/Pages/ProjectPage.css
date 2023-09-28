@@ -1,3 +1,26 @@
 ul{
    color: aliceblue; 
 }
+
+.projectpage-container {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px; /* Espacement entre les éléments */
+ }
+ 
+ .projectpage-container img {
+   max-width: 45%; /* Pour éviter le débordement des images */
+ }
+ 
+ .projectpage-container h2 {
+   flex: 1; /* Le h2 prend autant d'espace que possible */
+ }
+ 
+ .projectpage-container p {
+   flex: 1; /* Le paragraphe prend autant d'espace que possible */
+ }
+ 

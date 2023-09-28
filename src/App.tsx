@@ -11,6 +11,7 @@ import { projects } from "./Data/data";
 import { ProjectType } from "./Models/project";
 import { ExpPage } from "./Pages/ExpPage";
 import { ContactPage} from "./Pages/ContactPage"
+import { Footer } from "./Components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/exp" element={<ExpPage exps={[]} />} />
             <Route path ="/about" element={<ContactPage contacts={[]}/>}/>
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </ProjectsContext.Provider>
     </>

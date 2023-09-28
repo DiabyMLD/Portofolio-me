@@ -89,21 +89,29 @@ export const projects = [
   {
     id: 11,
     category: "exp",
-    name: "Licence en Administration économique et sociale",
-    description: "(Bac+3)",
+    name: "Licence en Administration économique et sociale (Bac+3)",
+    description: "2019/2022 - La licence en Administration Économique et Sociale m'a offert une solide formation interdisciplinaire axée sur la gestion des ressources économiques et sociales, préparant ainsi les étudiants à comprendre, analyser et contribuer au fonctionnement efficace des organisations et des politiques publiques.",
     img: "/LicenceDiaby.jpg",
   },
 
   {
     id: 12,
     category: "exp",
-    name: "Baccaulérat Technologique",
-    description: "spécialité Marketing",
-    img: "/BacDiaby.jpg",
+    name: "Konexio - (en cours)",
+    description: "2023/2024 - Actuellement en formation pour le titre de développeur web (bac+2)",
+    img: "/Konexio.png",
   },
 
   {
     id: 13,
+    category: "exp",
+    name: "Baccaulérat Technologique",
+    description: "2015/2018 - Le bac technologique en marketing m'a formé à comprendre et à appliquer les principes fondamentaux du marketing pour réussir dans le monde professionnel, en mettant l'accent sur la promotion et la gestion de produits et de services.",
+    img: "/BacDiaby.jpg",
+  },
+
+  {
+    id: 14,
     category: "contact",
     name: "Numéro de téléphone",
     description: "06 38 88 89 75",

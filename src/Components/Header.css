@@ -1,14 +1,26 @@
 /* Style de base pour le header */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
+
 .Header-container {
-    background-color: #1f2349;
-    color: #fff;
-    padding: 25px 35px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border-bottom:10px solid #b79e5d;
-  }
-  
+  background-color: #1f2349;
+  color: #fff;
+  padding: 25px 35px;
+  display: flex;
+  justify-content: center; /* Centre la div "Accueil" */
+  align-items: center;
+  border-bottom: 10px solid #b79e5d;
+}
+
+.header-title {
+  font-family: 'Sriracha', cursive;
+  font-size: 20px;
+  margin-left: auto; /* Déplace la div "Accueil" à droite */
+  color: #b79e5d;
+  text-decoration: none; /* Annule le style de bouton */
+  cursor: default; /* Désactive le curseur de type main */
+  display: inline; /* Affiche le titre comme du texte en ligne */
+}
   .Header-menu {
     list-style: none;
     padding: 0;
@@ -37,7 +49,7 @@
   
   .menu-dropdown:hover .submenu {
     display: block;
-    background-color: darkslategray;
+    background-color: rgb(59, 164, 96);
   }
   
   /* Style des liens dans le menu déroulant */

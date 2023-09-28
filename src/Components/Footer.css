@@ -1,26 +1,24 @@
-.header-container {
-  background-color: rgb(29, 32, 34, 0.45);
-  border: 10px solid violet;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap');
 
-.weight {
+
+
+
+.footer-infos {
+  font-family: 'Sriracha', cursive;
+  background-color: #EBC972;
+  opacity: 40%;
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
+  color: #1f2349;
   font-weight: bolder;
-  color: goldenrod;
-  padding-right: 20px;
+  padding: 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.weight:hover{
-  background-color: black;
-}
-
-.header-infos {
-  display: flex;
-
-  font-size: 20px;
-}
-
-.header-title {
-  text-align: center;
+.footer-infos:hover{
+  opacity: 100%;
+  
 }
