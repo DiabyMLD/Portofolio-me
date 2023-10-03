@@ -47,6 +47,20 @@ export const ProjectList = ({ projects }: ProjectListProps) => {
             Voici mes dessins que je fais sur tablette.
           </section>
         </div>
+
+          {/* <div className="icon-box">
+          <Link to={`/drawings`} className="custom-link">
+            <button>
+              <img src="/icon4New.png" alt="image not found" />
+            </button>
+            <div>Mes dessins</div>
+          </Link>
+          <section className="list-description">
+            Voici mes dessins que je fais sur tablette.
+          </section>
+
+          
+        </div> */}
       </section>
     </div>
   );

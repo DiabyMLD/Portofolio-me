@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
+
+
+
 .langpage-box{
+  font-family: 'Sriracha', cursive;
     color: aliceblue;
     display: flex;
     flex-direction: column;

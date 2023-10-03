@@ -1,4 +1,5 @@
 .drawpage-box {
+  font-family: 'Sriracha', cursive;
     padding-top: 80px;
     display: flex;
     flex-wrap: wrap;

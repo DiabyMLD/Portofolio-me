@@ -18,11 +18,13 @@ export const ProjectPage = ({ projs }: ProjectPageProps) => {
     <div className="projectpage-container">
       <ul>
         {projectData.map((proj) => (
-          <li key={proj.id}>
+          <li key={proj.id} className="projectpage-list" >
             <h2>{proj.name}</h2>
             <p>{proj.description}</p> 
-            <img src={proj.img} alt={proj.name} />
-            <img src={proj.img2} />
+            <div className="projectpage-img">
+            <img src={proj.img} alt={proj.name} className="project-firstimg" />
+            <img src={proj.img2} className="project-secondimg"/>
+            </div>
           </li>
         ))}
       </ul>

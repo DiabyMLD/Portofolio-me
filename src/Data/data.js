@@ -5,7 +5,8 @@ export const projects = [
     category: "project",
     name: "Site de restaurants",
     description: "site internet fait en React/Typescript",
-    img: "",
+    img: "/restaurant1.JPG",
+    img2:"restaurant3.JPG"
   },
 
    

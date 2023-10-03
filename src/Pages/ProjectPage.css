@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
+
+
+
 ul{
    color: aliceblue; 
+}
+
+.projectpage-list{
+  font-family: 'Sriracha', cursive;
+  list-style: none;
+  text-align: center;
 }
 
 .projectpage-container {
@@ -13,7 +24,24 @@ ul{
  }
  
  .projectpage-container img {
-   max-width: 45%; /* Pour éviter le débordement des images */
+  gap: 20px;
+  max-width: 45%; /* Pour éviter le débordement des images */
+ }
+
+ .project-firstimg{
+  margin-right:20px ;
+  height: vh;
+
+ }
+
+ .project-secondimg{
+  margin-left:20px;
+ }
+
+
+ .projectpage-img{
+  gap: 20px;
+  margin-right: 20px;
  }
  
  .projectpage-container h2 {

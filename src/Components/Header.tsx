@@ -12,7 +12,7 @@ export const Header = () => {
     <li className="menu-dropdown">
       <span className="weight">Contact</span>
       <ul className="submenu">
-        <li></li>
+        <li><a href="/CV-Diaby-Lamine-Dev.pdf" download>CV</a></li>
         <li>
           <a href="https://www.linkedin.com/in/lamine-diaby-418603273/" target="blank">LinkedIn</a>
         </li>
