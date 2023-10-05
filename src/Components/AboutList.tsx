@@ -1,8 +1,7 @@
 import React from "react";
 import { ProjectType } from "../Models/project";
 import { Link } from "react-router-dom";
-import { ProjectPage } from "../Pages/ProjectPage";
-import "./AboutList.css";
+import "./AboutList.css"
 
 type AboutListProps = {
   about: ProjectType[];
@@ -28,15 +27,15 @@ export const AboutList = ({ about }: AboutListProps) => {
           </section>
           </Link>
           
-          {/* <Link to={`/exp`} className="custom-link">
+          <Link to={`/about-page`} className="custom-link">
             <button className="about-box">
-              <img src="/icon7New.png" alt="image not found" />
+              <img src="/Icon11.png" alt="image not found" />
             </button>
-            <div>Mes expériences professionnelles et diplomes</div>
+            <div>à propos de moi</div>
           </Link>
           <section className="about-description">
-            Voici mon parcours scolaire et universitaire
-          </section> */}
+            Si vous voulez en apprendre plus sur moi, appuyez dessus.
+          </section>
         </div>
       </section>
     </div>

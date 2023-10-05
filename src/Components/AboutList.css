@@ -3,11 +3,12 @@
 
 
 .about-tap{
-    font-family: 'Sriracha', cursive;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
-    grid-gap: 20px; /* Espacement entre les éléments */
-    margin-left: 25px;
+  font-family: 'Sriracha', cursive;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+  grid-gap: 20px; /* Espacement entre les éléments */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

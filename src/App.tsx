@@ -12,6 +12,7 @@ import { ProjectType } from "./Models/project";
 import { ExpPage } from "./Pages/ExpPage";
 import { ContactPage} from "./Pages/ContactPage"
 import { Footer } from "./Components/Footer";
+import { AboutPage } from "./Pages/AboutPage";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/languages" element={<LangPage languages={[]} />} />
             <Route path="/exp" element={<ExpPage exps={[]} />} />
             <Route path ="/about" element={<ContactPage contacts={[]}/>}/>
+            <Route path ="/about-page" element={<AboutPage/>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>

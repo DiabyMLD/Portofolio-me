@@ -1,0 +1,32 @@
+.aboutPage-title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 70px; 
+    color: #fff;
+    /* Effet de volume */
+    text-shadow: 10px 2px 2px #EBC972; /* Décalage horizontal, décalage vertical, flou et couleur du texte d'ombre */
+}
+
+.aboutPage-first{
+    font-size: 30px;
+    color:#80e3cf;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    margin: 15vw;
+}
+
+.aboutPage-second{
+    font-size: 30px;
+    color:#80e3cf;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    margin: 15vw;
+}
+
+.aboutPage-third{
+    font-size: 30px;
+    color:#80e3cf;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    margin: 20vw;
+}

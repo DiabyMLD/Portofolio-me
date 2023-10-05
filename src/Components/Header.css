@@ -64,9 +64,16 @@
     font-weight: bold;
   }
 
+  a {
+    color: inherit; /* Assurez-vous que la couleur du lien est héritée */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Ajoutez une transition pour une animation en douceur */
+  }
+  
+
  a:hover{
     color: darkred;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     background-color: rgb(12, 18, 18);
   }
 
