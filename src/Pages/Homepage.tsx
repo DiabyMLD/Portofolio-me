@@ -21,7 +21,7 @@ export const Homepage = () => {
     <div className="homepage-container">
       <section className="homepage-presentation">
         <img
-          src="/background.jpg"
+          src="/banner.jpg"
           className="homepage-img"
           alt="Background"
         ></img>

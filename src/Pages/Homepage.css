@@ -63,7 +63,7 @@ h3 {
 .homepage-buttons {
   display: flex;
   flex-direction: column;
-  padding: 20px 80px;
+  padding: 20px ;
 }
 
 .homepage-buttons button {

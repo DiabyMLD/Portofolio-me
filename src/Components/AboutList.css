@@ -4,22 +4,21 @@
 
 .about-tap{
   font-family: 'Sriracha', cursive;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
-  grid-gap: 20px; /* Espacement entre les éléments */
+  display: flex;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center; /* Centrer le contenu verticalement */
+  text-align: center; /* Centrer le texte horizontalement */
+  gap: 60px ;
 }
-
 
 .about-box{
     font-family: 'Sriracha', cursive;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     font-size: 35px;
     text-align: center;
     background-color:#1f2349;
+    
 }
 
 
@@ -28,18 +27,18 @@
   }
 
   .about-box button {
-    margin-bottom: 10px; /* Espacement entre l'image et le texte */
+    margin-top: 10px; /* Espacement entre l'image et le texte */
     border:10px solid #b79e5d;
   }
   
   .about-tap img {
-    background-color:#1f2349
+    background-color:#1f2349;
+    width: 100%;
   }
   
   .about-description {
     color: #80e3cf;
     text-align: center; /* Alignez le texte au centre */
-    align-self: flex-end; /* Aligner le texte en bas */
     margin-top: auto; /* Pour pousser le texte vers le bas */
   }
 
