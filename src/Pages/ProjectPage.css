@@ -52,3 +52,32 @@ ul{
    flex: 1; /* Le paragraphe prend autant d'espace que possible */
  }
  
+ /* Styles par défaut */
+
+/* Ajoutez vos styles par défaut ici */
+
+/* Media query pour les écrans plus petits, comme les téléphones mobiles */
+@media screen and (max-width: 768px) {
+  .projectpage-container {
+    flex-direction: column; /* Changez la direction de la flexbox pour une disposition en colonne */
+    gap: 10px; /* Réduisez l'espacement entre les éléments */
+    align-items: center; /* Centrez les éléments horizontalement */
+  }
+
+  .projectpage-list {
+    text-align: center; /* Centrez le texte horizontalement */
+  }
+
+  .projectpage-container img {
+    max-width: 100%; /* Ajustez la largeur maximale des images pour qu'elles s'adaptent à la largeur de l'écran */
+    margin: 10px 0; /* Ajoutez de l'espacement autour des images */
+  }
+
+  .project-firstimg {
+    margin-right: 0; /* Réinitialisez la marge de la première image */
+  }
+
+  .project-secondimg {
+    margin-left: 0; /* Réinitialisez la marge de la deuxième image */
+  }
+}

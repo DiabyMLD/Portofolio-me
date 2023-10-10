@@ -15,14 +15,7 @@ export const ContactPage = ({ contacts }: ContactPageProps) => {
   );
 return(
   <div className="contact-container">
-      <ul>
-        {projectData.map((contact) => (
-          <li key={contact.id}>
-            <h2>{contact.name}</h2>
-            <p>{contact.description}</p>
-          </li>
-        ))}
-      </ul>
+    <div className="space"> space</div>
   </div>
 )
 

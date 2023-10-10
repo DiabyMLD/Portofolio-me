@@ -36,3 +36,39 @@
     
   }
   
+  /* Styles par défaut */
+
+/* Ajoutez vos styles par défaut ici */
+
+/* Media query pour les écrans plus petits, comme les téléphones mobiles */
+@media screen and (max-width: 768px) {
+  .langpage-box {
+    font-family: 'Sriracha', cursive;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: circle;
+  }
+
+  /* Ajoutez des styles spécifiques pour les petits écrans ici */
+
+  /* Réduisez la marge autour des éléments */
+  .lang-description {
+    display: flex;
+    flex-direction: column; /* Changez la direction de la flexbox pour une disposition en colonne */
+    align-items: center; /* Centrez les éléments horizontalement */
+    margin-bottom: 10px; /* Réduisez l'espacement entre les éléments */
+  }
+
+  /* Réduisez la largeur maximale de l'image pour qu'elle s'adapte à la largeur de l'écran */
+  .lang-description img {
+    max-width: 50%; /* Ajustez la largeur maximale de l'image selon vos besoins */
+    margin-right: 0; /* Réinitialisez la marge de l'image */
+  }
+
+  /* Réduisez la marge autour du titre (h2) */
+  .lang-description h2 {
+    margin: 10px; /* Ajoutez de l'espacement autour du titre */
+  }
+}

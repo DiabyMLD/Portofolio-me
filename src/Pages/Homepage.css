@@ -12,6 +12,7 @@
   justify-content: center;
 }
 
+
 .homepage-img {
   object-fit: cover;
   width: 100vw;
@@ -63,7 +64,7 @@ h3 {
 .homepage-buttons {
   display: flex;
   flex-direction: column;
-  padding: 20px ;
+  padding: 20px;
 }
 
 .homepage-buttons button {
@@ -133,6 +134,7 @@ h3 {
   border-bottom: 2px solid aliceblue;
   background: none;
   cursor: pointer;
+  margin-bottom: 20px;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.1s ease;
@@ -152,4 +154,41 @@ h3 {
 .button-click2:active{
   color: blue;
 }
+
+/* Styles par défaut */
+
+/* Ajoutez vos styles par défaut ici */
+
+/* Media queries pour les écrans plus petits, comme les téléphones mobiles */
+
+@media screen and (max-width: 768px) {
+  .homepage-img {
+    height: 30vh; /* Réduisez la hauteur de l'image pour les petits écrans */
+  }
+
+  .title-banner {
+    margin-top: 80px;
+    top: 40%;
+    font-size: 40px; /* Réduisez la taille de la police pour les petits écrans */
+    top: 15%; /* Ajustez la position du titre */
+  }
+
+  .banner {
+    font-size: 16px; /* Réduisez la taille de la police pour les petits écrans */
+    bottom: 10%; /* Ajustez la position du titre */
+  }
+
+  .button-click{
+    font-size: 20px;
+  }
+
+  .button-click2{
+    font-size: 20px;
+  }
+
+
+  /* Ajustez d'autres styles au besoin pour une meilleure adaptation aux téléphones mobiles */
+}
+
+
 

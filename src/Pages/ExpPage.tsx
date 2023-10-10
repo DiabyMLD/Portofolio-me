@@ -19,7 +19,6 @@ export const ExpPage = ({ exps }: ExpPageProps) => {
       <ul>
         {ExpData.map((exp) => (
           <li className="exppage-description" key={exp.id}>
-            <img src={exp.img} alt={exp.name} />
             <h2>{exp.name}</h2>
             <p>{exp.description}</p>
           </li>

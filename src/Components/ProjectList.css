@@ -45,4 +45,37 @@
     text-decoration: none; 
   }
   
+  /* Styles par défaut */
+
+/* Ajoutez vos styles par défaut ici */
+
+/* Media queries pour les écrans plus petits, comme les téléphones mobiles */
+
+@media screen and (max-width: 768px) {
+  .icon-tap {
+    grid-template-columns: 1fr; /* Une seule colonne pour les petits écrans */
+    grid-gap: 10px; /* Réduisez l'espacement entre les éléments */
+    margin-left: 0; /* Supprimez la marge pour un espacement uniforme */
+  }
+
+  .icon-box {
+    font-size: 30px; /* Réduisez la taille de la police pour les petits écrans */
+    text-align: center; /* Réglez le texte au centre */
+  }
+
+  .icon-box button {
+    margin-bottom: 5px; /* Réduisez l'espacement entre l'image et le texte */
+    font-size: 20px; /* Réduisez la taille de la police pour les petits écrans */
+  }
+
+  .icon-tap img {
+    width: 50%; /* Réduisez la largeur de l'image */
+    border: 5px solid #b79e5d;
+  }
+
+  .list-description {
+    font-size: 16px; /* Réduisez la taille de la police pour les petits écrans */
+  }
+}
+
   
