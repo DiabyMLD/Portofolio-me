@@ -4,9 +4,9 @@ export const projects = [
     id: 1,
     category: "project",
     name: "Site de restaurants",
-    description: "site internet fait en React/Typescript",
-    img: "/restaurant1.JPG",
-    img2:"restaurant3.JPG"
+    description: "Il s'agit d'un site internet fait en React/Typescript. Les utilisateurs pourront voir les informations de chaque restaurant dans une page dédiée. Ils pourront ajouter leur restaurant dans une liste de favoris qui sera visible dans une autre page.",
+    img: "/restaurant1.jpg",
+    img2:"restaurant3.jpg"
   },
 
    
@@ -14,7 +14,7 @@ export const projects = [
     id: 10,
     category: "project",
     name: "Site Animalier",
-    description: "site internet fait en HTML/CSS/Javascript",
+    description: "Il s'agit de plusieurs pages qui ont été créées en HTML/CSS/JavaScript.",
     img: "/animal1.png",
     img2:"/animal2.png",
   },
