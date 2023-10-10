@@ -27,3 +27,22 @@
     border-radius: 5px;
   }
   
+  /* Media query pour les écrans plus petits, comme les téléphones mobiles */
+@media screen and (max-width: 768px) {
+  /* Réglez les styles spécifiques aux petits écrans ici */
+
+  /* Vous pouvez ajuster les styles pour les petits écrans ici */
+  .drawpage-box {
+    padding-top: 40px; /* Réduisez l'espacement en haut */
+    gap: 10px; /* Réduisez l'espacement entre les éléments */
+  }
+
+  .drawpage-box li {
+    padding: 5px; /* Réduisez l'espacement intérieur */
+    transition: none; /* Supprimez la transition au survol */
+  }
+
+  .drawpage-box img {
+    max-height: 200px; /* Réduisez la hauteur maximale des images */
+  }
+}

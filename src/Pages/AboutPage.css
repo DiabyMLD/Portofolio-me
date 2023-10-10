@@ -30,3 +30,18 @@
     text-align: center;
     margin: 20vw;
 }
+
+@media screen and (max-width: 768px) {
+    /* Réglez les styles spécifiques aux petits écrans ici */
+  
+    .aboutPage-title {
+      font-size: 40px; /* Réduisez la taille du titre */
+    }
+  
+    .aboutPage-first,
+    .aboutPage-second,
+    .aboutPage-third {
+      font-size: 15px; /* Réduisez la taille du texte */
+      margin: 10vw; /* Réduisez la marge */
+    }
+  }

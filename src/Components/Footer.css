@@ -22,3 +22,12 @@
   opacity: 100%;
   
 }
+
+@media screen and (max-width: 768px) {
+  .footer-infos {
+    font-size: 12px; /* Réduisez la taille de la police pour les petits écrans */
+    padding: 5px; /* Ajustez l'espacement pour les petits écrans */
+  }
+
+  /* Ajustez d'autres styles au besoin pour une meilleure adaptation aux téléphones mobiles */
+}

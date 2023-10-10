@@ -21,3 +21,21 @@
   margin-left: 20%;
   margin-right: 20%;
 }
+
+/* Media query pour les écrans plus petits, comme les téléphones mobiles */
+@media screen and (max-width: 768px) {
+  /* Réglez les styles spécifiques aux petits écrans ici */
+
+  .exppage-description img {
+    width: 100%; /* Utilisez la largeur maximale pour s'adapter à l'écran */
+    height: auto; /* Ajustez automatiquement la hauteur */
+  }
+
+  .exppage-description {
+    font-size: 20px; /* Réduisez la taille du texte */
+    margin-left: 5%; /* Réduisez la marge gauche */
+    margin-right: 5%; /* Réduisez la marge droite */
+    border-left: 5px solid #b79e5d; /* Réduisez l'épaisseur de la bordure gauche */
+    border-right: 5px solid #b79e5d; /* Réduisez l'épaisseur de la bordure droite */
+  }
+}

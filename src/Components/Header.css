@@ -101,4 +101,29 @@ color: darkblue;
     margin: 2vw;
   }
   
-  
+  /* Styles par défaut */
+
+/* Ajoutez vos styles par défaut ici */
+
+/* Media queries pour les écrans plus petits, comme les téléphones mobiles */
+
+@media screen and (max-width: 768px) {
+  .Header-container {
+    padding: 15px 20px; /* Réduisez l'espacement pour les petits écrans */
+  }
+
+  .header-title {
+    font-size: 16px; /* Réduisez la taille de la police pour les petits écrans */
+  }
+
+  .Header-menu {
+    flex-direction: column; /* Changez la direction du menu pour une disposition en colonne */
+  }
+
+  .Header-menu li {
+    margin-right: 0; /* Supprimez la marge entre les éléments du menu pour une disposition en colonne */
+    margin-bottom: 10px; /* Ajoutez de l'espacement entre les éléments du menu pour une disposition en colonne */
+  }
+
+  /* Ajustez d'autres styles au besoin pour une meilleure adaptation aux téléphones mobiles */
+}
