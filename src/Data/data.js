@@ -25,7 +25,7 @@ export const projects = [
     id: 2,
     category: "language",
     name: "React",
-    description: "Langage informatique",
+    description: " C'est la bibliothèque que j'utilise le plus pour mes projets et celle que j'ai pratiqué le plus tout au long de ma formation.",
     img: "/logo192.png",
   },
 
@@ -33,7 +33,7 @@ export const projects = [
     id: 3,
     category: "language",
     name: "Typescript",
-    description: "Framework de Javascipt",
+    description: "Lors de ma formation, j'ai appris les principes de Typescript.",
     img: "/TS.png",
   },
   
@@ -43,7 +43,7 @@ export const projects = [
     id: 4,
     category: "language",
     name: "HTML,CSS,Javascipt",
-    description: "La base",
+    description: "Les fondamentaux que j'ai appris sur Openclassrooms.",
     img: "/HCS.png",
   },
 
@@ -51,7 +51,7 @@ export const projects = [
     id: 5,
     category: "language",
     name: "PHP",
-    description: "Les bases de données",
+    description: "Le langage coté serveur que j'ai appris lors de ma formation.",
     img: "/php.png",
   },
 
@@ -59,7 +59,7 @@ export const projects = [
     id: 6,
     category: "language",
     name: "Symfony",
-    description: "Framework",
+    description: "Framework de PHP que j'ai appris lors de ma formation.",
     img: "/symfony.png",
   },
 
