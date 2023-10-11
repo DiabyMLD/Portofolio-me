@@ -17,9 +17,13 @@
     align-items: center;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 100px;
     background-color:#1f2349;
     
+}
+
+.about-description{
+  padding: 0;
+  color: #80e3cf;
 }
 
 
@@ -28,8 +32,9 @@
   }
 
   .about-box button {
-    margin-top: 10px; /* Espacement entre l'image et le texte */
+    margin-top: 10px;
     border:10px solid #b79e5d;
+    padding: 0;
   }
   
   .about-tap img {
@@ -38,15 +43,21 @@
   }
   
   .about-description {
-    color: #80e3cf;
-    text-align: center; /* Alignez le texte au centre */
-    margin-top: auto; /* Pour pousser le texte vers le bas */
+    text-align: center; 
+    margin-top: auto; 
   }
 
   .custom-link {
     color: #3498db; 
-    text-decoration: none; 
   }
+
+  .custom-link:hover{
+  color: gold;
+  background-color: black;
+}
+
+
+
 /* Media query pour les écrans plus petits, comme les téléphones mobiles */
 @media screen and (max-width: 768px) {
   .about-tap {

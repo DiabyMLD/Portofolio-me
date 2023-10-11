@@ -26,7 +26,7 @@ export const AboutList = ({ about }: AboutListProps) => {
         <div className="about-box">
           <Link to={`/about-page`} className="custom-link">
             <button className="about-button">
-              <img src="/Icon11.png" alt="image not found" />
+              <img src="/Icon11.png" alt="image not found" className="about-img" />
             </button>
             <div>À propos de moi</div>
           </Link>

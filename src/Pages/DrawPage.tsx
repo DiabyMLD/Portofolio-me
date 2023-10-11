@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { ProjectType } from "../Models/project";
 import { ProjectsContext, useProjects } from "../Context/ProjectsContext";
-import { Modal } from "../Components/Modal";
 import "./DrawPage.css"
 
 type DrawPageProps = {

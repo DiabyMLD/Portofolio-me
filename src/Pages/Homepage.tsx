@@ -25,7 +25,7 @@ export const Homepage = () => {
           className="homepage-img"
           alt="Background"
         ></img>
-        <h1 className="title-banner">Bienvenue dans mon Portofolio</h1>
+        <h1 className="title-banner">Bienvenue dans mon Portfolio</h1>
       </section>
       <div className="homepage-buttons">
         <button className="button-click" onClick={toggleProjectList}>
