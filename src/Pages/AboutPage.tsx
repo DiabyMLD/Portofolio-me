@@ -11,7 +11,7 @@ export const AboutPage = () => {
         l'informatique, je suis actuellement à la recherche d'un contrat
         d'apprentissage en tant que développeur web junior pour mon projet de
         reconversion professionnelle. Au cours de ma formation, j'ai étudié des
-        langages comme HTML, CSS, Javascript, ou MySQL. J'ai aussi
+        langages comme HTML, CSS, Javascript ou PHP. J'ai aussi
         étudié des frameworks comme React et Symfony et j'ai participé à la
         réalisation de plusieurs projets en utilisant ces langages. À l'âge de
         23 ans, je suis un individu jeune, curieux et déterminé, cherchant à

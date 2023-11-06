@@ -4,7 +4,7 @@
 
 
 ul{
-   color: aliceblue; 
+   color: aliceblue;
 }
 
 .projectpage-list{
@@ -59,6 +59,7 @@ ul{
 /* Media query pour les écrans plus petits, comme les téléphones mobiles */
 @media screen and (max-width: 768px) {
   .projectpage-container {
+    margin-left: 20px;
     flex-direction: column; /* Changez la direction de la flexbox pour une disposition en colonne */
     gap: 10px; /* Réduisez l'espacement entre les éléments */
     align-items: center; /* Centrez les éléments horizontalement */

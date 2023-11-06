@@ -10,6 +10,7 @@
     flex-direction: column;
     text-align: center;
     list-style: circle;
+    margin-left: 20px;
   }
   
   /* Ajoutez un conteneur pour le texte */
@@ -42,6 +43,11 @@
 
 /* Media query pour les écrans plus petits, comme les téléphones mobiles */
 @media screen and (max-width: 768px) {
+
+  .langpage-container{
+    margin-left: 15px;
+    margin-right: 5px;
+  }
   .langpage-box {
     font-family: 'Sriracha', cursive;
     color: aliceblue;
