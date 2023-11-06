@@ -3,7 +3,7 @@
     padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
   }
   
@@ -32,9 +32,12 @@
   /* Réglez les styles spécifiques aux petits écrans ici */
 
   /* Vous pouvez ajuster les styles pour les petits écrans ici */
+  .drawpage-container{
+    margin-top: 15%;
+  }
   .drawpage-box {
     padding-top: 40px; /* Réduisez l'espacement en haut */
-    gap: 10px; /* Réduisez l'espacement entre les éléments */
+    gap: 100px; /* Réduisez l'espacement entre les éléments */
   }
 
   .drawpage-box li {

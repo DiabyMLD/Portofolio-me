@@ -171,6 +171,8 @@ h3 {
     top: 40%;
     font-size: 40px; /* Réduisez la taille de la police pour les petits écrans */
     top: 15%; /* Ajustez la position du titre */
+    text-shadow: 10px 2px 2px rgba(235, 201, 114, 0.15);
+
   }
 
   .banner {

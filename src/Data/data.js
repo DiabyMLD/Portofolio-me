@@ -14,7 +14,7 @@ export const projects = [
     id: 10,
     category: "project",
     name: "Site Animalier",
-    description: "Il s'agit de plusieurs pages qui ont été créées en HTML/CSS/JavaScript.",
+    description: "Il s'agit d'un site vitrine qui a été créé en HTML/CSS/JavaScript.",
     img: "/animal1.png",
     img2:"/animal2.png",
   },
@@ -87,20 +87,21 @@ export const projects = [
     img: "/73oc.jpg",
   },
 
-  {
-    id: 11,
-    category: "exp",
-    name: " .Licence en Administration économique et sociale (Bac+3)",
-    description: "2019/2022 - La licence en Administration Économique et Sociale m'a offert une solide formation interdisciplinaire axée sur la gestion des ressources économiques et sociales, préparant ainsi les étudiants à comprendre, analyser et contribuer au fonctionnement efficace des organisations et des politiques publiques.",
-    img: "/LicenceDiaby.jpg",
-  },
-
+  
   {
     id: 12,
     category: "exp",
     name: ".Konexio - (en cours)",
     description: "2023/2024 - Actuellement en formation pour le titre de développeur web (bac+2)",
     img: "/Konexio.png",
+  },
+  
+{
+    id: 11,
+    category: "exp",
+    name: " .Licence en Administration économique et sociale (Bac+3)",
+    description: "2019/2022 - La licence en Administration Économique et Sociale m'a offert une solide formation interdisciplinaire axée sur la gestion des ressources économiques et sociales, préparant ainsi les étudiants à comprendre, analyser et contribuer au fonctionnement efficace des organisations et des politiques publiques.",
+    img: "/LicenceDiaby.jpg",
   },
 
   {
