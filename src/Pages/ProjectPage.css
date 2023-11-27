@@ -4,35 +4,59 @@
 
 
 ul{
-   color: aliceblue;
+   color: rgb(0, 0, 0);
 }
 
 .projectpage-list{
-  font-family: 'Sriracha', cursive;
+  font-family: 'Poppins', cursive;
   list-style: none;
   text-align: center;
 }
+.projectpage-container {
+  background: linear-gradient(#fff8f4, #4dcaff);
+}
+
+.projectpage-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 45px;
+  margin-top: 0;
+  background: linear-gradient(to right, #1500ff, #00eaff);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+.projectpage-img{
+  margin-top: 20px;
+  align-items: center;
+}
+
+
+.projectpage-header{
+  text-align: center;
+  
+}
+
 
 .projectpage-container {
-   display: flex;
    justify-content: space-between;
    list-style: none;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   gap: 20px; /* Espacement entre les éléments */
+   gap: 20px;
  }
  
  .projectpage-container img {
   gap: 20px;
-  max-width: 45%; /* Pour éviter le débordement des images */
+  max-width: 45%; 
  }
 
  .project-firstimg{
   margin-right:20px ;
-  height: vh;
-
  }
+
+
+
 
  .project-secondimg{
   margin-left:20px;
@@ -45,21 +69,27 @@ ul{
  }
  
  .projectpage-container h2 {
-   flex: 1; /* Le h2 prend autant d'espace que possible */
+   flex: 1;
  }
  
  .projectpage-container p {
-   flex: 1; /* Le paragraphe prend autant d'espace que possible */
+   flex: 1; 
  }
- 
- /* Styles par défaut */
 
-/* Ajoutez vos styles par défaut ici */
+ .proj-title{
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+ }
+
+ .proj-description{
+  margin-bottom: 100px;
+ }
 
 /* Media query pour les écrans plus petits, comme les téléphones mobiles */
 @media screen and (max-width: 768px) {
   .projectpage-container {
-    margin-left: 20px;
+    padding: 20px;
     flex-direction: column; /* Changez la direction de la flexbox pour une disposition en colonne */
     gap: 10px; /* Réduisez l'espacement entre les éléments */
     align-items: center; /* Centrez les éléments horizontalement */
@@ -67,6 +97,10 @@ ul{
 
   .projectpage-list {
     text-align: center; /* Centrez le texte horizontalement */
+  }
+
+  .projectpage-img{
+    margin-left: 14%;
   }
 
   .projectpage-container img {
@@ -81,4 +115,8 @@ ul{
   .project-secondimg {
     margin-left: 0; /* Réinitialisez la marge de la deuxième image */
   }
+  .projectpage-title{
+    display: none;
+  }
 }
+

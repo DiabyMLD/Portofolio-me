@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
 
 
+.exppage-container{
+  background: linear-gradient(#fff8f4, #605d5d);
+  width: 100%;
+}
+
 .exppage-description img {
     width: 40; 
     height: 40vh; 
   }
 
   .exppage-description{
-    font-family: 'Sriracha', cursive;
+    font-family: 'Poppins', cursive;
     text-align: center;
     list-style: none;
     font-size: 30px;
@@ -17,18 +22,26 @@
   }
   
 .exppage-description p{
-  color:#80e3cf;
+  color:#000000;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-/* Media query pour les écrans plus petits, comme les téléphones mobiles */
+.exp-title{
+  margin-bottom: 20px;
+}
+
+.exp-description{
+padding-bottom: 50px;
+font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
-  /* Réglez les styles spécifiques aux petits écrans ici */
+
 
   .exppage-description img {
-    width: 100%; /* Utilisez la largeur maximale pour s'adapter à l'écran */
-    height: auto; /* Ajustez automatiquement la hauteur */
+    width: 100%; 
+    height: auto;
   }
 
   .exppage-description {

@@ -29,7 +29,7 @@ const App = () => {
             <Route path ="/about" element={<ContactPage contacts={[]}/>}/>
             <Route path ="/about-page" element={<AboutPage/>}/>
           </Routes>
-          <ContactPage contacts={[]}/>
+          {/* <ContactPage contacts={[]}/> */}
           <Footer/>
         </BrowserRouter>
       </ProjectsContext.Provider>

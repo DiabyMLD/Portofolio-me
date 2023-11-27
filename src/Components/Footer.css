@@ -1,33 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&display=swap");
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
 
 
+.footer-container{
+  display: flex;
+  flex-direction: column;
+}
 
 
 .footer-infos {
-  font-family: 'Sriracha', cursive;
-  background-color: #EBC972;
-  opacity: 70%;
+  flex-shrink: 0;
+  background-color: #f0f0f0; 
+  font-family: 'Metropolis', sans-serif;
+  background-color: #ebc972;
   display: flex;
   justify-content: space-around;
   color: #1f2349;
   font-weight: bolder;
-  padding: 8px;
-  position: fixed;
+padding-top: 8px;
+padding-bottom: 8px;
   bottom: 0;
   width: 100%;
-}
-
-.footer-infos:hover{
-  opacity: 100%;
   
 }
 
+.footer-infos:hover {
+  opacity: 100%;
+}
+
+.footer-mail:hover{
+  color: lightseagreen;
+}
+
+.footer-mail:active{
+  color: lightcoral;
+}
+
+.img-footer1 {
+  width: 30px;
+}
+
+.icon-footer:hover {
+  background-color: rgb(186, 217, 249);
+}
+
 @media screen and (max-width: 768px) {
-  .footer-infos {
-    font-size: 12px; /* Réduisez la taille de la police pour les petits écrans */
-    padding: 5px; /* Ajustez l'espacement pour les petits écrans */
+  .main-section {
+    min-height: 100vh; /* Ajustez la hauteur minimale à 100% de la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
   }
 
+  .footer-container {
+    flex-shrink: 0;
+  }
+
+  .footer-infos {
+    font-size: 8px; /* Réduisez la taille de la police pour les petits écrans */
+    
+  }
   /* Ajustez d'autres styles au besoin pour une meilleure adaptation aux téléphones mobiles */
 }

@@ -1,51 +1,89 @@
+
+.drawpage-container{
+  background: linear-gradient(#fff8f4, #605d5d);
+}
+
+
+
 .drawpage-box {
+  color: aliceblue;
   font-family: 'Sriracha', cursive;
-    padding-top: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.drawpage-img{
+  margin-top: 40px;
+  width: 30%;
+}
+
+.drawpage-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 45px;
+  left: 45%;
+  bottom: 65%;
+  font-size: 45px;
+  margin-top: 0;
+  background: linear-gradient(to right, #1500ff, #00eaff);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.drawpage-box li {
+  list-style: none;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 15px; 
+  transition: transform 0.2s ease-in-out;
+  width: 200px;
+}
+
+.drawpage-box li:hover {
+  transform: scale(1.05); 
+}
+
+.drawpage-box img {
+  max-width: 100%;
+  max-height: 300px; 
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .drawpage-container{
+    padding: 20px;
+  }
+
+  .drawpage-img{
+    width: 70%;
+  }
+
+
+  .drawpage-box {
+    padding-top: 40px;
     gap: 20px;
   }
-  
-  .drawpage-box li {
-    list-style: none;
-    text-align: center;
-    background-color: #000000;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    padding: 5px;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .drawpage-box li:hover {
-    transform: scale(1.7); /* Agrandir légèrement au survol */
-  }
-  
-  .drawpage-box img {
-    max-width: 100%;
-    max-height: 400px; /* Ajustez la hauteur maximale selon vos besoins */
-    border-radius: 5px;
-  }
-  
-  /* Media query pour les écrans plus petits, comme les téléphones mobiles */
-@media screen and (max-width: 768px) {
-  /* Réglez les styles spécifiques aux petits écrans ici */
-
-  /* Vous pouvez ajuster les styles pour les petits écrans ici */
-  .drawpage-container{
-    margin-top: 15%;
-  }
-  .drawpage-box {
-    padding-top: 40px; /* Réduisez l'espacement en haut */
-    gap: 100px; /* Réduisez l'espacement entre les éléments */
-  }
 
   .drawpage-box li {
-    padding: 5px; /* Réduisez l'espacement intérieur */
-    transition: none; /* Supprimez la transition au survol */
+    width: 100%; /* Utilisez la largeur maximale pour les petits écrans */
+    padding: 15px;
   }
 
   .drawpage-box img {
-    max-height: 200px; /* Réduisez la hauteur maximale des images */
+    max-height: 200px;
+  }
+ 
+  .projectpage-title{
+    displa: none;
+  }
+
+  .drawpage-title{
+    display: none;
   }
 }

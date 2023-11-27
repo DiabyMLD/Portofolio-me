@@ -11,11 +11,11 @@ type ProjectListProps = {
 export const ProjectList = ({ projects }: ProjectListProps) => {
   return (
     <div className="list-container">
-      <section className="icon-tap">
+       <section className="icon-tap">
         <div className="icon-box">
           <Link to={`/projects`} className="custom-link">
-            <button>
-              <img src="/icon5New.png" alt="image not found" />
+            <button className="icon-button"> {/* Ajout de la classe icon-button */}
+              <img src="/icon5New.png" alt="image not found" className="icon-img" /> {/* Ajout de la classe icon-img */}
             </button>
             <div>Mes projets</div>
           </Link>
@@ -24,10 +24,10 @@ export const ProjectList = ({ projects }: ProjectListProps) => {
           </section>
         </div>
 
-        <div className="icon-box">
+        <div className="icon-box1">
           <Link to={`/languages`} className="custom-link">
-            <button>
-              <img src="/icon3New.png" alt="image not found" />
+            <button className="icon-button">
+              <img src="/icon3New.png" alt="image not found" className="icon-img" />
             </button>
             <div>Mes Langages</div>
           </Link>
@@ -36,10 +36,10 @@ export const ProjectList = ({ projects }: ProjectListProps) => {
           </section>
         </div>
 
-        <div className="icon-box">
+        <div className="icon-box2">
           <Link to={`/drawings`} className="custom-link">
-            <button>
-              <img src="/icon4New.png" alt="image not found" />
+            <button className="icon-button">
+              <img src="/icon4New.png" alt="image not found" className="icon-img" />
             </button>
             <div>Mes dessins</div>
           </Link>
@@ -47,20 +47,6 @@ export const ProjectList = ({ projects }: ProjectListProps) => {
             Voici mes dessins que je fais sur tablette.
           </section>
         </div>
-
-          {/* <div className="icon-box">
-          <Link to={`/drawings`} className="custom-link">
-            <button>
-              <img src="/icon4New.png" alt="image not found" />
-            </button>
-            <div>Mes dessins</div>
-          </Link>
-          <section className="list-description">
-            Voici mes dessins que je fais sur tablette.
-          </section>
-
-          
-        </div> */}
       </section>
     </div>
   );

@@ -30,15 +30,21 @@ export const DrawPage = ({ drawing }: DrawPageProps) => {
 
   return (
     <div className="drawpage-container">
-      <ul className="drawpage-box">
-        {drawingData.map((draw, index) => (
-          <li key={draw.id}>
+       <div className="projectpage-header">
+      <h2 className="drawpage-title">Mes dessins</h2>
+        <img src="/icon4New.png" className="drawpage-img"></img>
+        </div>
+    <ul className="drawpage-box">
+      {drawingData.map((draw, index) => (
+        <li key={draw.id}>
+          <a href={draw.img} target="_blank" rel="noopener noreferrer">
             <img src={draw.img} alt={draw.name} />
-            <h2>{draw.name}</h2>
-            <p>{draw.description}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </a>
+          <h2>{draw.name}</h2>
+          <p>{draw.description}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
 };
