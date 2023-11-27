@@ -5,7 +5,10 @@ export const AboutPage = () => {
   return (
     <div className="aboutPage-container">
       <h1 className="aboutPage-title"> Voici mon parcours</h1>
-
+      <div className="aboutPage-img">
+      <img src="/PdpDiabs.jpg" alt="Profile" />
+      </div>
+      
       <div className="aboutPage-first">
         Bonjour, Je m'appelle Lamine Mohamed Diaby. Passionné par le sport, l'art et
         l'informatique, je suis actuellement à la recherche d'un contrat

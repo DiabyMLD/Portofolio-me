@@ -1,25 +1,18 @@
-/* Style de base pour le header */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&family=Wire+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
 
-.Header-container {
-  background-color: #1f2349;
-  color: #fff;
-  padding: 25px 35px;
-  display: flex;
-  justify-content: center; /* Centre la div "Accueil" */
-  align-items: center;
-  border-bottom: 10px solid #b79e5d;
-}
 
+
+/* 
 .header-title {
   font-family: 'Sriracha', cursive;
   font-size: 20px;
-  margin-left: auto; /* Déplace la div "Accueil" à droite */
+  margin-left: auto;
   color: #b79e5d;
-  text-decoration: none; /* Annule le style de bouton */
-  cursor: default; /* Désactive le curseur de type main */
-  display: inline; /* Affiche le titre comme du texte en ligne */
+  text-decoration: none;
+  cursor: default;
+  display: inline; 
 }
   .Header-menu {
     list-style: none;
@@ -33,7 +26,7 @@
     position: relative;
   }
   
-  /* Style du menu déroulant */
+  
   .menu-dropdown .submenu {
     display: none;
     position: absolute;
@@ -48,15 +41,15 @@
   }
   
   .menu-dropdown:hover .submenu {
-    display: block;
+    display:block;
     background-color: rgb(59, 164, 96);
   }
   
-  /* Style des liens dans le menu déroulant */
+  
   .submenu li {
     margin: 0;
     padding: 5px 0;
-  }
+  } */
   
   .submenu a {
     text-decoration: none;
@@ -65,65 +58,70 @@
   }
 
   a {
-    color: inherit; /* Assurez-vous que la couleur du lien est héritée */
-    transition: color 0.3s ease, background-color 0.3s ease; /* Ajoutez une transition pour une animation en douceur */
+    color: inherit; 
+    transition: color 0.3s ease, background-color 0.3s ease; 
   }
   
 
- a:hover{
-    color: darkred;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: rgb(12, 18, 18);
-  }
 
-  a:active{
-color: darkblue;
-  }
-  
-  /* Style pour le lien principal du menu déroulant */
+
   .menu-dropdown .weight {
     cursor: pointer;
   }
 
   .weight{
+    position: static;
     font-family: 'Sriracha', cursive;
     font-weight: bolder;
-    border-left: 2px solid aliceblue;
-    padding: 2vh;
-    margin: 2vw;
-    background-color:#b79e5d ;
+    border-radius: 20px 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #b79e5d;
   }
 
   .weight:hover{
     background-color: darkgrey;
-    padding: 2vh;
-    margin: 2vw;
   }
-  
-  /* Styles par défaut */
 
-/* Ajoutez vos styles par défaut ici */
-
-/* Media queries pour les écrans plus petits, comme les téléphones mobiles */
+  .Header-back {
+    position: absolute;
+    left: 10px;
+    top: 20px; 
+    background-color:#b79e5d ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 
 @media screen and (max-width: 768px) {
-  .Header-container {
-    padding: 15px 20px; /* Réduisez l'espacement pour les petits écrans */
-  }
 
-  .header-title {
-    font-size: 16px; /* Réduisez la taille de la police pour les petits écrans */
+  /* .header-title {
+    font-size: 16px; 
   }
 
   .Header-menu {
-    flex-direction: column; /* Changez la direction du menu pour une disposition en colonne */
+    flex-direction: column; 
   }
 
   .Header-menu li {
-    margin-right: 0; /* Supprimez la marge entre les éléments du menu pour une disposition en colonne */
-    margin-bottom: 10px; /* Ajoutez de l'espacement entre les éléments du menu pour une disposition en colonne */
+    margin-right: 0; 
+    margin-bottom: 10px; 
   }
 
-  /* Ajustez d'autres styles au besoin pour une meilleure adaptation aux téléphones mobiles */
+  .weight{
+    margin: 1%;
+    padding: 10%;
+  }
+
+  .weight:hover{
+    background-color: darkgrey;
+  } */
+
+  .Header-back{
+    font-size: 10px;
+  }
+
+
 }

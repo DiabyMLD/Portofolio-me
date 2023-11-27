@@ -1,81 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&family=Wire+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Poppins:wght@500&display=swap');
+
+.list-container {
+  position: relative;
+  align-items: center;
+  object-fit: cover;
+}
 
 .icon-tap {
-  /* font-family: 'Wire One', sans-serif; */
-    font-family: 'Sriracha', cursive;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
-    grid-gap: 20px; /* Espacement entre les éléments */
-    margin-left: 25px;
-  }
-  
-  .icon-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 40px;
-    text-align: center; /* Alignez le texte au centre */
-    
-  }
-  
-  .icon-box.last-icon-box {
-    justify-content: flex-end; /* Alignez la dernière boîte à droite */
-  }
-  
-  .icon-box button {
-    margin-bottom: 10px; /* Espacement entre l'image et le texte */
-    background-color:#1f2349;
-    text-decoration: none;
-  }
-  
-  .icon-tap img {
-    /* width: 75%; */
-    border:10px solid #b79e5d;
-    background-color:#1f2349 
-  }
-  
-  .list-description {
-    color: #80e3cf;
-    text-align: center; /* Alignez le texte au centre */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.icon-box,
+.icon-box1,
+.icon-box2 {
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+}
+
+.icon-box{
+  background-color: #F5DD90;
+
+}
+
+.icon-box1{
+background-color: #324376;
+}
+
+.icon-box2{
+  background-color: #A9BCD0;
   }
 
-  .custom-link {
-    color: #3498db; 
-    text-decoration: none; 
-  }
+.list-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  text-align: center; 
+  margin-left: 50px; 
+}
 
-  /* Styles par défaut */
+.icon-box button {
+  width: 70%;
+  margin-bottom: 10px;
+  background-color: #1f2349;
+  text-decoration: none;
+}
 
-/* Ajoutez vos styles par défaut ici */
+.icon-box1 button {
+  width: 70%;
+  margin-bottom: 10px;
+  background-color: #1f2349;
+  text-decoration: none;
+}
 
-/* Media queries pour les écrans plus petits, comme les téléphones mobiles */
+.icon-box2 button {
+  width: 70%;
+  background-color: #1f2349;
+  text-decoration: none;
+}
+
+
+
+
+.icon-button {
+  outline: none;
+  transition: transform 0.2s ease; 
+  border-radius: 20% 20%;
+  border: none;
+  margin-top: 40px ;
+  margin-left: 20px;
+  border-bottom: 5px solid aliceblue 0.7;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background-color: rgba(0, 0, 0, 0.085);
+  transform: scale(0.9);
+}
+
+.icon-img {
+  width: 100%; 
+}
+
+ .custom-link {
+  color: #3498db;
+  text-decoration: none;
+} 
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .icon-tap {
-    grid-template-columns: 1fr; /* Une seule colonne pour les petits écrans */
-    grid-gap: 10px; /* Réduisez l'espacement entre les éléments */
-    margin-left: 0; /* Supprimez la marge pour un espacement uniforme */
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-left: 0;
   }
 
   .icon-box {
-    font-size: 30px; /* Réduisez la taille de la police pour les petits écrans */
-    text-align: center; /* Réglez le texte au centre */
+    font-size: 30px;
+    text-align: center;
   }
 
   .icon-box button {
-    margin-bottom: 5px; /* Réduisez l'espacement entre l'image et le texte */
-    font-size: 20px; /* Réduisez la taille de la police pour les petits écrans */
+    margin-bottom: 5px;
+    font-size: 20px;
   }
 
   .icon-tap img {
-    width: 50%; /* Réduisez la largeur de l'image */
+    width: 50%;
     border: 5px solid #b79e5d;
   }
 
   .list-description {
-    font-size: 16px; /* Réduisez la taille de la police pour les petits écrans */
+    font-size: 16px;
   }
 }
-
-  

@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,900&family=Ranchers&family=Wire+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sriracha&display=swap');
 
-
+.langpage-container{
+  background-color: #9bb5bc;
+  background: linear-gradient(#d5d3d1,  #52676e 80%);
+}
 
 .langpage-box{
   font-family: 'Sriracha', cursive;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -13,41 +16,44 @@
     margin-left: 20px;
   }
   
-  /* Ajoutez un conteneur pour le texte */
+
   .lang-description {
     display: flex;
-    align-items: center; /* Centrez verticalement les éléments */
-    margin-bottom: 20px; /* Espacement entre les éléments */
+    align-items: center; 
+    margin-bottom: 20px; 
   }
   
-  /* Appliquez une flexibilité aux éléments internes */
+
   .lang-description img {
-    max-width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
-    margin-right: 20px; /* Espacement entre l'image et le texte */
+    max-width: 100px;
+    margin-right: 20px; 
   }
   
-  /* Le paragraphe (p) sera à droite de l'image */
+
   .lang-description p {
-    flex: 1; /* Occupe l'espace disponible restant */
-    text-align: left; /* Alignez le texte à gauche */
+    flex: 1; 
+    text-align: left; 
   }
 
   .lang-description h2{
     margin: 30px;
     
   }
+
+  .html-lang {
+    color: #e4c126; 
+  }
+
+  .react-lang {
+    color: #61dafb; 
+  }
   
-  /* Styles par défaut */
 
-/* Ajoutez vos styles par défaut ici */
-
-/* Media query pour les écrans plus petits, comme les téléphones mobiles */
 @media screen and (max-width: 768px) {
 
   .langpage-container{
-    margin-left: 15px;
-    margin-right: 5px;
   }
+
   .langpage-box {
     font-family: 'Sriracha', cursive;
     color: aliceblue;
@@ -55,6 +61,10 @@
     flex-direction: column;
     text-align: center;
     list-style: circle;
+  }
+
+  .projectpage-img{
+    width: 70%;
   }
 
   /* Ajoutez des styles spécifiques pour les petits écrans ici */
